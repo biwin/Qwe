@@ -42,7 +42,6 @@ def initialize_project():
             'type': 'input',
             'name': 'author',
             'message': 'Author:',
-
         },
         {
             'type': 'input',
