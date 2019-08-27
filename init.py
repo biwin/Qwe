@@ -3,6 +3,7 @@ from __future__ import print_function, unicode_literals
 from PyInquirer import style_from_dict, Token, prompt
 import json
 
+
 def initialize_project():
 
     style = style_from_dict({
