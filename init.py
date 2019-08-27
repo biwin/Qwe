@@ -56,5 +56,6 @@ def initialize_project():
 
     ]
     answers = prompt(questions, style=style)
-    with open('app.json', 'w') as config:
-        json.dump(answers, config, indent=4)
+    if answers:
+        with open('app.json', 'w') as config:
+            json.dump(answers, config, indent=4)
