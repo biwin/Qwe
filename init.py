@@ -36,7 +36,7 @@ def initialize_project():
         {
             'type': 'input',
             'name': 'repository',
-            'message': 'Package repository:',
+            'message': 'Repository:',
         },
         {
             'type': 'input',
